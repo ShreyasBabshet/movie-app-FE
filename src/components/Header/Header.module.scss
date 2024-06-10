@@ -1,0 +1,29 @@
+@import "../../common/colors.scss";
+.Container {
+  width: inherit;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 6rem;
+  padding: 2rem;
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Title {
+  color: $font-primary;
+  margin-left: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+.Image {
+  width: 4rem;
+  height: 4rem;
+}
+.HeaderLeft {
+  display: flex;
+  align-items: center;
+}
